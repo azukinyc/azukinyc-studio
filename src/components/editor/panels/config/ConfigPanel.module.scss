@@ -1,0 +1,11 @@
+@import "../../../../scss/Defaults";
+
+.configs {
+  position: relative;
+  right: 0;
+  max-width: 500px;
+  width: 200px;
+  padding: 20px;
+  height: 100%;
+  border-left: 1px solid $borderColor;
+}

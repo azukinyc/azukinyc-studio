@@ -1,0 +1,10 @@
+@import "../../../../scss/Defaults";
+
+.tools {
+  position: relative;
+  max-width: 500px;
+  width: 200px;
+  padding: 20px;
+  height: 100%;
+  border-right: 1px solid $borderColor;
+}
