@@ -5,7 +5,20 @@
   right: 0;
   max-width: 500px;
   width: 200px;
-  padding: 20px;
+  //padding: 20px;
   height: 100%;
   border-left: 1px solid $borderColor;
+}
+
+.configs ul {
+  padding: 0;
+}
+
+.configs ul li {
+  list-style: none;
+}
+
+.configs ul li button {
+  width: 100%;
+  border-radius: 0;
 }

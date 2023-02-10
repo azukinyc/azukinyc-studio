@@ -1,0 +1,59 @@
+.vvchecks {
+
+}
+
+.frame {
+    flex: none;
+    height: 428px;
+    left: calc(50.00000000000002% - 340px / 2);
+    position: fixed;
+    top: calc(50.50000000000002% - 428px / 2);
+    width: 340px;
+    z-index: 2;
+    background: rgba(17,17,17,1);
+}
+
+.frame .canvas {
+    display: grid;
+    flex: none;
+    gap: 0px;
+    grid-auto-rows: minmax(0,1fr);
+    grid-template-columns: repeat(8,minmax(1px,1fr));
+    grid-template-rows: repeat(10,minmax(0,1fr));
+    height: 408px;
+    justify-content: center;
+    left: calc(50.00000000000002% - 320px / 2);
+    overflow: visible;
+    padding: 0;
+    pointer-events: none;
+    position: absolute;
+    top: calc(50.00000000000002% - 408px / 2);
+    width: 320px;
+    border: 1px solid #ffffff0d;
+}
+
+.vvchecks .frame .canvas .cell {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ffffff0d;
+    border-bottom: 1px solid #ffffff0d;
+}
+
+.vvchecks .frame .canvas .cell img {
+    width: 20px;
+    height: 20px;
+    mask: url('../../assets/svgs/bubble.svg');
+    -webkit-mask-image: url('../../assets/svgs/bubble.svg');
+    mask-image: url('../../assets/svgs/bubble.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+}
+
+.vvchecks .frame .canvas .cell:nth-child(8n+8) {
+    border-right: 0;
+}

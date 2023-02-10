@@ -4,7 +4,21 @@
   position: relative;
   max-width: 500px;
   width: 200px;
-  padding: 20px;
+  //padding: 20px;
   height: 100%;
   border-right: 1px solid $borderColor;
+}
+
+.tools ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tools ul li {
+  //margin-top: 10px;
+}
+
+.tools ul li button {
+  width: 100%;
+  border-radius: 0;
 }
